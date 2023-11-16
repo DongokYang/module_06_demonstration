@@ -25,19 +25,19 @@ class AccountType(Enum):
     MORTGAGE = 3
     CREDIT = 4
 
-# Using the enumeration
-account = AccountType.MORTGAGE
-print(account)
-print(account.value)
+# # Using the enumeration
+# account = AccountType.MORTGAGE
+# print(account)
+# print(account.value)
 
-# Compare names and values using ==
-print(AccountType.MORTGAGE == AccountType.CREDIT)
-print(AccountType.MORTGAGE.value == AccountType.CREDIT.value)
+# # Compare names and values using ==
+# print(AccountType.MORTGAGE == AccountType.CREDIT)
+# print(AccountType.MORTGAGE.value == AccountType.CREDIT.value)
 
-# Membership checking using 'in'
-print(AccountType.MORTGAGE in AccountType)
-# print(AccountType.INVESTMENT in AccountType)
+# # Membership checking using 'in'
+# print(AccountType.MORTGAGE in AccountType)
+# # print(AccountType.INVESTMENT in AccountType)
 
-# Membership checking with 'isinstance()' function
-print(isinstance(AccountType.MORTGAGE,AccountType))
-# print(isinstance(AccountType.INVESTMENT,AccountType))
+# # Membership checking with 'isinstance()' function
+# print(isinstance(AccountType.MORTGAGE,AccountType))
+# # print(isinstance(AccountType.INVESTMENT,AccountType))
